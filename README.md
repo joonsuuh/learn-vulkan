@@ -22,3 +22,13 @@ Generate build system
 ```bash
 cmake -B build -DCMAKE_BUILD_TYPE=Debug
 ```
+
+then build the project with
+
+```bash
+cmake --build build
+```
+
+## Intro
+
+Just a simple test to see if the project builds properly with GLFW.
