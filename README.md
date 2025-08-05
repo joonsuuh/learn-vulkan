@@ -2,7 +2,7 @@
 
 From [vulkan.org/learn](https://www.vulkan.org/learn)
 
-- [Kronos Vulkan Tutorial](https://docs.vulkan.org/tutorial/latest): [learn-vulkan/learn-vulkan](learn-vulkan)
+- [Kronos Vulkan Tutorial](https://docs.vulkan.org/tutorial/latest)
 
 ## Dependencies
 
@@ -29,6 +29,10 @@ then build the project with
 cmake --build build
 ```
 
-## Intro
+## Chapter 1: Drawing a Triangle
 
-Just a simple test to see if the project builds properly with GLFW.
+Following [Drawing a triangle](https://docs.vulkan.org/tutorial/latest/03_Drawing_a_triangle/00_Setup/00_Base_code.html).
+
+Notes:
+
+- Swapchain recreation: validation layer error on windows...
